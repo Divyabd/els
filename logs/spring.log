@@ -1,0 +1,30 @@
+2021-03-23 21:33:08.449  INFO 20940 --- [main] c.mindtree.CodingChallenge2Application   : Starting CodingChallenge2Application using Java 11.0.10 on DESKTOP-4B95J8L with PID 20940 (C:\Users\Divya BD\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\CodingChallenge2\target\classes started by Divya BD in C:\Users\Divya BD\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\CodingChallenge2)
+2021-03-23 21:33:08.454 DEBUG 20940 --- [main] c.mindtree.CodingChallenge2Application   : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-03-23 21:33:08.455  INFO 20940 --- [main] c.mindtree.CodingChallenge2Application   : No active profile set, falling back to default profiles: default
+2021-03-23 21:33:10.609  INFO 20940 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 21:33:10.849  INFO 20940 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 210 ms. Found 2 JPA repository interfaces.
+2021-03-23 21:33:12.154  INFO 20940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-03-23 21:33:12.180  INFO 20940 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-23 21:33:12.180  INFO 20940 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-23 21:33:12.472  INFO 20940 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-23 21:33:12.473  INFO 20940 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3885 ms
+2021-03-23 21:33:13.044  INFO 20940 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 21:33:13.336  INFO 20940 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-23 21:33:14.016  INFO 20940 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 21:33:14.532  INFO 20940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-23 21:33:15.999  INFO 20940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-23 21:33:16.083  INFO 20940 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-03-23 21:33:19.599  INFO 20940 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 21:33:19.633  INFO 20940 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 21:33:20.784  WARN 20940 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 21:33:20.963  INFO 20940 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 21:33:21.395  INFO 20940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-23 21:33:21.415  INFO 20940 --- [main] c.mindtree.CodingChallenge2Application   : Started CodingChallenge2Application in 14.268 seconds (JVM running for 16.684)
+2021-03-23 21:33:27.349  INFO 20940 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-23 21:33:27.350  INFO 20940 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-23 21:33:27.353  INFO 20940 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-03-23 21:38:39.971  INFO 20940 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-03-23 21:38:40.612  INFO 20940 --- [RMI TCP Connection(9)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-23 21:38:40.621  INFO 20940 --- [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 21:38:40.690  INFO 20940 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-23 21:38:40.793  INFO 20940 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
